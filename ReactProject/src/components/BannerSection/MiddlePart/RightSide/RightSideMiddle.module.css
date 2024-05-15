@@ -1,0 +1,40 @@
+.rightContent {
+    margin-top: 17.5rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-end;
+}
+
+@media (max-width: 480px) {
+    .rightContent {
+        display: none;
+    }
+}
+
+.starsTextCircleImagesOfReview {
+    margin-right: 4.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.stars {
+    text-align: right;
+    font-family: "SF Pro Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.31094rem;
+    letter-spacing: 0.055rem;
+}
+
+.numReviews {
+    text-align: right;
+    font-family: "SF Pro Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.31094rem;
+    /* 154.063% */
+    letter-spacing: 0.055rem;
+    text-decoration-line: underline;
+}

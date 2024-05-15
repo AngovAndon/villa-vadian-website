@@ -1,0 +1,72 @@
+.fullHH {
+    height: 100vh;
+    background-color: #FFF2E3;
+    display: flex;
+}
+
+.leftHalf {
+    flex: 1;
+    /* Allow each half to take up equal space */
+    display: flex;
+    /* Use flexbox to center content within each half */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 9rem;
+}
+
+.rightHalf {
+    flex: 1;
+    /* Allow each half to take up equal space */
+    display: flex;
+    /* Use flexbox to center content within each half */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25rem 9rem 2rem;
+}
+
+.leftHalf {
+    background-image: url("/HHImage.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.largerP {
+    color: #376601;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 155%;
+    /* 2.90625rem */
+    letter-spacing: 0.04688rem;
+}
+
+.smallerP {
+    color: #376601;
+    text-align: center;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.01688rem;
+}
+
+.middlePart {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.bottomPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}

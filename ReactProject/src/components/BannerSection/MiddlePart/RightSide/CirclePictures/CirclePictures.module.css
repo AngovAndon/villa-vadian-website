@@ -1,0 +1,42 @@
+.reviewsComponent {
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.topReviewers {
+    width: 4.73438rem;
+    height: 4.73438rem;
+    border-radius: 4.73438rem;
+    border: 3px solid #FFF;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    position: relative;
+}
+
+.marc {
+    transform: translate(-20%, 80%);
+}
+
+.topReviewers:nth-child(1) {
+    z-index: 5;
+}
+
+.topReviewers:nth-child(2) {
+    z-index: 4;
+}
+
+.topReviewers:nth-child(3) {
+    z-index: 3;
+}
+
+.topReviewers:nth-child(4) {
+    z-index: 2;
+}
+
+.topReviewers:nth-child(5) {
+    z-index: 1;
+}
+
+
+.topReviewers:not(:first-child) {
+    margin-left: -1.5rem;
+}

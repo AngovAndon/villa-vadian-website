@@ -1,0 +1,13 @@
+.fullBanner {
+    background-image: url("/HeroSectionImage.png");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+@media (max-width: 480px) {
+    .fullBanner {
+        background-image: url("/BannerImageMobile.png");
+        height: 100vh;
+    }
+}

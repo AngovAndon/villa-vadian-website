@@ -1,0 +1,104 @@
+@media (max-width: 480px) {
+
+    .arrowLeft,
+    .arrowRight {
+        display: none;
+    }
+}
+
+.reviewCard {
+    width: 30rem;
+    display: flex;
+}
+
+.leftPart {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middlePart {
+    width: 80%;
+}
+
+.reviewCardContent {
+    border-radius: 0.625rem;
+    border: 0px solid #FFF;
+    background: linear-gradient(109deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.06) 100%);
+    box-shadow: 0px 0px 44.018px -22.009px rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(44.018062591552734px);
+}
+
+.first {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.second {
+    padding-left: 2.5rem;
+}
+
+.score {
+    color: #FFF;
+    font-family: "SF Pro Display";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.6875rem;
+    /* 168.75% */
+}
+
+.third {
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+}
+
+.text {
+    width: 80%;
+    color: #FFF;
+    font-family: "SF Pro Display";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6875rem;
+    /* 168.75% */
+}
+
+.fourth {
+    padding: 1.5rem 5rem 2.5rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    color: #FFF;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.31094rem;
+    /* 154.063% */
+    letter-spacing: 0.055rem;
+}
+
+.date {
+    color: #FFF;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.31094rem;
+    letter-spacing: 0.055rem;
+}
+
+.rightPart {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  /* Use Lato for body text */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', sans-serif;
+  /* Use Inter for headings */
+}
+
+:root {
+  font-size: 16px;
+}
+
+@media (max-width: 1600px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1000px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  :root {
+    font-size: 11px;
+  }
+}
+
+/* this can be leveraged to have almost "native" responsivnes */
+/* but I didn't started with it and now won't use it in this case */
+
+/* 
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+}

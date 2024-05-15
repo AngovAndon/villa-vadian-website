@@ -1,0 +1,231 @@
+.fullSection {
+    height: 100vh;
+    background-color: #FFF2E3;
+    padding: 5rem 13rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .fullSection {
+        display: none;
+    }
+}
+
+
+.innerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullSection img {
+    max-width: 80%;
+    max-height: 65%;
+    height: auto;
+}
+
+.sectionHeader {
+    color: #376601;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.3125rem;
+    letter-spacing: 0.0425rem;
+    text-transform: uppercase;
+    margin-bottom: 4.5rem;
+}
+
+.sectionButton {
+    margin-top: 6.5rem;
+    display: flex;
+    padding: 1.0625rem 3.125rem 1.1875rem 3.1875rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background: #376601;
+    box-shadow: 0px 0px 44.018px -22.009px rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(44.018062591552734px);
+    border: none;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+    position: absolute;
+    color: #376601;
+    font-family: Lato;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text1 {
+    top: 29%;
+    left: 31%;
+}
+
+.text2 {
+    bottom: 62%;
+    right: 36%;
+}
+
+.text3 {
+    top: 64%;
+    left: 41%;
+}
+
+.text4 {
+    top: 68%;
+    right: 23%;
+}
+
+/* css za mobilnataVerzija */
+
+.secondMobileSection {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #7DA570;
+    display: none;
+}
+
+
+@media (max-width: 480px) {
+    .secondMobileSection {
+        display: block;
+    }
+}
+
+.firstThird {
+    padding: 0rem 1.5rem 3rem 1.5rem
+}
+
+.secondThird {
+    height: 66.67%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerParagraph {
+    width: 80%;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.25rem;
+    /* 128.571% */
+    letter-spacing: 0.07rem;
+    text-transform: uppercase;
+}
+
+.images {
+    height: 80%;
+    padding: 0rem 1.5rem;
+    position: relative;
+}
+
+.story1,
+.story2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.story1 {
+    z-index: 2;
+    transform: translate(6%, 1%);
+}
+
+.story2 {
+    z-index: 1;
+    transform: translate(65%, 7%);
+
+}
+
+.story1 {
+    width: 24.35375rem;
+    height: 43.75rem;
+    flex-shrink: 0;
+}
+
+.story2 {
+    width: 21.88363rem;
+    height: 39.31256rem;
+    flex-shrink: 0;
+}
+
+.galleryButton {
+    margin: 2.5rem 0rem;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonItself {
+    width: 9rem;
+    height: 3.15rem;
+    border-radius: 0.375rem;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+.rightContent {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+
+.stars {
+    text-align: right;
+    font-family: "SF Pro Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.31094rem;
+    letter-spacing: 0.055rem;
+}
+
+.numReviews {
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.31094rem;
+    /* 154.063% */
+    letter-spacing: 0.055rem;
+    text-decoration-line: underline;
+}

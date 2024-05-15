@@ -1,0 +1,54 @@
+.bottomParagraph {
+    margin: 4.5rem 0rem 4rem 7.5rem;
+}
+
+@media (max-width: 480px) {
+    .bottomParagraph {
+        margin: 3rem;
+    }
+}
+
+
+
+.stars {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .stars {
+        margin-top: 2.5rem;
+        display: block;
+        color: #FFF;
+        text-align: center;
+        font-family: "SF Pro Display";
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.31094rem;
+        /* 184.876% */
+        letter-spacing: 0.055rem;
+    }
+}
+
+.thePItself {
+    color: var(--white, #FFF);
+    font-family: Lato;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.01688rem;
+}
+
+@media (max-width: 480px) {
+    .thePItself {
+        color: var(--white, #FFF);
+        text-align: center;
+        font-family: Lato;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.01313rem;
+    }
+}
