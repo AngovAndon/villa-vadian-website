@@ -2,6 +2,8 @@
 
 Responsive React website for a real villa rental business. Built to present accommodation details, amenities, and key information in a clean and modern layout.
 
+(homepage.png)
+
 ## Tech Stack
 - React
 - Vite
