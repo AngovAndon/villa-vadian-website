@@ -9,16 +9,13 @@ Responsive React website for a real villa rental business. Built to present acco
 - HTML5
 - CSS3
 
-## Getting Started
+## Build
 ```bash
 cd ReactProject
 npm install
 npm run dev
-```
-
-## Build
-cd ReactProject
 npm run build
+```
 
 ## Status
 Completed (Portfolio project)
